@@ -7,14 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		878CE70827FDEC19B8C56E10 /* Pods_Thurn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E15FD6C5D649D6EB1DA9570 /* Pods_Thurn.framework */; };
+		A42F4FBA1FAAB90C0019BA4E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4B70E981FAA7FA700C945CC /* Info.plist */; };
+		A47452981FABBEF500CDB081 /* LoginTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47452971FABBEF500CDB081 /* LoginTextField.swift */; };
 		A4B70E8D1FAA7FA700C945CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B70E8C1FAA7FA700C945CC /* AppDelegate.swift */; };
 		A4B70E8F1FAA7FA700C945CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B70E8E1FAA7FA700C945CC /* ViewController.swift */; };
 		A4B70E921FAA7FA700C945CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B70E901FAA7FA700C945CC /* Main.storyboard */; };
 		A4B70E941FAA7FA700C945CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B70E931FAA7FA700C945CC /* Assets.xcassets */; };
 		A4B70E971FAA7FA700C945CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B70E951FAA7FA700C945CC /* LaunchScreen.storyboard */; };
+		A4B70E9F1FAA866200C945CC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4B70E9E1FAA866200C945CC /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		429CC0DF2B141F0CEABB0C2A /* Pods-Thurn.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thurn.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thurn/Pods-Thurn.release.xcconfig"; sourceTree = "<group>"; };
+		6E15FD6C5D649D6EB1DA9570 /* Pods_Thurn.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thurn.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81CFC04A19CA711A8F39D2B6 /* Pods-Thurn.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thurn.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thurn/Pods-Thurn.debug.xcconfig"; sourceTree = "<group>"; };
+		A47452971FABBEF500CDB081 /* LoginTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextField.swift; sourceTree = "<group>"; };
 		A4B70E891FAA7FA700C945CC /* Thurn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thurn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4B70E8C1FAA7FA700C945CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4B70E8E1FAA7FA700C945CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,7 @@
 		A4B70E931FAA7FA700C945CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4B70E961FAA7FA700C945CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4B70E981FAA7FA700C945CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B70E9E1FAA866200C945CC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878CE70827FDEC19B8C56E10 /* Pods_Thurn.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +50,8 @@
 			children = (
 				A4B70E8B1FAA7FA700C945CC /* Thurn */,
 				A4B70E8A1FAA7FA700C945CC /* Products */,
+				B7DBEB1680BA1EF6A6E38046 /* Pods */,
+				E60500D429BFA783D427CD15 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +68,31 @@
 			children = (
 				A4B70E8C1FAA7FA700C945CC /* AppDelegate.swift */,
 				A4B70E8E1FAA7FA700C945CC /* ViewController.swift */,
+				A47452971FABBEF500CDB081 /* LoginTextField.swift */,
 				A4B70E901FAA7FA700C945CC /* Main.storyboard */,
 				A4B70E931FAA7FA700C945CC /* Assets.xcassets */,
 				A4B70E951FAA7FA700C945CC /* LaunchScreen.storyboard */,
 				A4B70E981FAA7FA700C945CC /* Info.plist */,
+				A4B70E9E1FAA866200C945CC /* GoogleService-Info.plist */,
 			);
 			path = Thurn;
+			sourceTree = "<group>";
+		};
+		B7DBEB1680BA1EF6A6E38046 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81CFC04A19CA711A8F39D2B6 /* Pods-Thurn.debug.xcconfig */,
+				429CC0DF2B141F0CEABB0C2A /* Pods-Thurn.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E60500D429BFA783D427CD15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E15FD6C5D649D6EB1DA9570 /* Pods_Thurn.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A4B70E9B1FAA7FA700C945CC /* Build configuration list for PBXNativeTarget "Thurn" */;
 			buildPhases = (
+				91FC8764C5B0362D3ABD127A /* [CP] Check Pods Manifest.lock */,
 				A4B70E851FAA7FA700C945CC /* Sources */,
 				A4B70E861FAA7FA700C945CC /* Frameworks */,
 				A4B70E871FAA7FA700C945CC /* Resources */,
+				97CD243E0A35B2CF6EC514C6 /* [CP] Embed Pods Frameworks */,
+				4828D999C2B7D4BDF5C4BAA7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,18 +158,86 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4B70E971FAA7FA700C945CC /* LaunchScreen.storyboard in Resources */,
+				A4B70E9F1FAA866200C945CC /* GoogleService-Info.plist in Resources */,
 				A4B70E941FAA7FA700C945CC /* Assets.xcassets in Resources */,
+				A42F4FBA1FAAB90C0019BA4E /* Info.plist in Resources */,
 				A4B70E921FAA7FA700C945CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4828D999C2B7D4BDF5C4BAA7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thurn/Pods-Thurn-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thurn/Pods-Thurn-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FC8764C5B0362D3ABD127A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Thurn-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97CD243E0A35B2CF6EC514C6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Thurn/Pods-Thurn-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thurn/Pods-Thurn-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A4B70E851FAA7FA700C945CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47452981FABBEF500CDB081 /* LoginTextField.swift in Sources */,
 				A4B70E8F1FAA7FA700C945CC /* ViewController.swift in Sources */,
 				A4B70E8D1FAA7FA700C945CC /* AppDelegate.swift in Sources */,
 			);
@@ -272,6 +374,7 @@
 		};
 		A4B70E9C1FAA7FA700C945CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81CFC04A19CA711A8F39D2B6 /* Pods-Thurn.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -288,6 +391,7 @@
 		};
 		A4B70E9D1FAA7FA700C945CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 429CC0DF2B141F0CEABB0C2A /* Pods-Thurn.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
