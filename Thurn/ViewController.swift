@@ -16,6 +16,7 @@ class ViewController: UIViewController, GIDSignInUIDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         GIDSignIn.sharedInstance().uiDelegate = self
+        print("hi")
     }
     
     // MARK: - Setup SignIn/Up Button
